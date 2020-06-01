@@ -1,0 +1,11 @@
+.result-item {
+    padding: 0.5em 0.5em 0!important;
+    overflow: hidden;
+    &:hover {
+        box-shadow: 0 0 2.2em rgba(0, 0, 0, 0.5);
+    }
+    &-visu {
+        height: auto;
+        width: 100%;
+    }
+}

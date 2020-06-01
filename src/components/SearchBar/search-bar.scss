@@ -1,0 +1,33 @@
+#search-bar {
+    background: #2196f3;
+    padding: 2em 0;
+    .ui.button {
+        border-radius: 0 .28571429rem .28571429rem 0;
+    }
+    .title {
+        font-family:'Roboto' !important;
+        font-weight:300;
+        color:white;
+    }
+    .searchbar {
+        &-form {
+            display:flex;
+        }
+
+        &-input {
+            width: 100% !important;
+            input {
+               border-radius: .28571429rem 0 0 .28571429rem !important; 
+              
+            }
+        }
+        &-button { 
+            background: adjust-color( green, $lightness: 10% );
+            color:white; 
+            &:hover {
+                animation: .3s ease-in;
+                background: adjust-color( green, $lightness: 15% );
+            }
+        }
+    }
+}
